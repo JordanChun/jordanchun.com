@@ -2,7 +2,7 @@ var projects = [
   {
     title: 'Tiger Painting - Digital Art',
     desc: 'A black and white painting of a tiger done solely in Adobe Photoshop.',
-    img: 'img/tiger_painting/tiger_process_04.JPG',
+    img: 'img/tiger_painting/tiger_process_04.jpg',
     imgAlt: 'Tiger Painting',
     url: 'tiger_painting.html'
   },
