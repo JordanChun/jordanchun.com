@@ -1,0 +1,111 @@
+.sec-main{
+  margin-top: 150px;
+}
+.sec-main hr{
+  width: 80%;
+  border-top: 1px solid rgba(0,0,0,.4);
+}
+.sec-header{
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 40px auto;
+}
+.sec-header h1{
+  font-size: 3rem;
+}
+#view-img{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  z-index: 999;
+}
+#view-img img{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 80vh;
+  max-width: 90vw;
+  margin: auto;
+  pointer-events: none;
+}
+.project-list{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.project-list a{
+  margin: auto;
+}
+.project-preview{
+  width: 800px;
+  height: 200px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  background-color: #f1f0f0;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+}
+.project-preview:hover{
+  background-color: #e6e6e6;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
+}
+.project-preview img{
+  max-width: 350px;
+  width: auto;
+  height: 100%;
+}
+.project-info{
+  margin: 10px;
+  width: 100%;
+  height: 100%;
+}
+.project-title{
+  margin: 10px;
+}
+.project-title h5{
+  margin: 0;
+  font-family: 'Patua One', cursive !important;
+  color: #282828 !important;
+}
+.project-desc{
+  margin: 10px;
+  color: #282828 !important;
+}
+
+.project-intro p{
+  width: 600px;
+  margin:  0 auto 20px auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  background-color: #f1f0f0;
+  padding: 15px;
+  font-size: 0.95rem !important
+}
+.project-intro, .project-details{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.project-details img{
+  width: auto;
+  max-width: 550px;
+  margin: auto;
+  cursor: pointer;
+}
+.project-exp{
+  width: 500px;
+  margin: 10px auto;
+}

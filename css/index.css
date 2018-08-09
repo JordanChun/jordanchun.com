@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #282828 !important;
+}
+#particles-js{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+h1{
+  font-family: 'Patua One', cursive !important;
+  font-weight: bold;
+  color: #282828 !important;
+}
+p{
+  font-family: 'Open Sans', sans-serif !important;
+  color: #282828 !important;
+  font-size: 0.9rem !important;
+}
+button{
+  border-color: #007bff !important;
+  color: #007bff !important;
+}
+button:hover{
+  background-color: lightblue !important;
+  border-color: lightblue !important;
+  cursor: pointer;
+}
+a:hover{
+  text-decoration: none !important;
+}
+.header{
+  z-index: 998;
+  top: -105px;
+  width: 100%;
+  background: rgb(173,216,230); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(173,216,230,1) 0%, rgba(173,216,230,1) 300px,rgba(255,255,255,1) 300px, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(173,216,230,1) 0%,rgba(173,216,230,1) 300px,rgba(255,255,255,1) 300px,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(173,216,230,1) 0%,rgba(173,216,230,1) 300px,rgba(255,255,255,1) 300px,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#add8e6', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.header header{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  box-shadow: -1px -2px 20px rgb(23,162,184);
+}
+.header h1{
+  margin: 0 150px 0 50px;
+}
+.header nav a{
+  margin: 5px;
+}
+.header nav a button{
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+.landing-main{
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name-main h1{
+  font-size: 4rem !important;
+}
+.name-main hr{
+  border-top: 1px solid rgba(0,0,0,.4);
+}
+.cat-main{
+  margin: 50px;
+  width: 500px;
+}
+.cat-main button{
+  width: 200px;
+}
+.sec-footer{
+  margin-top: 50px;
+  height: 150px;
+  background-color: #303030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-footer h5{
+  color: white;
+}
