@@ -1,5 +1,12 @@
 var projects = [
   {
+    title: 'Enlighten - Web Application',
+    desc: 'Enlighten is a forum created for the purpose of discussing any and all topics. Developed with NodeJs, ExpressJs, MongoDB, ReactJs, React Router v4, React Redux, React Semantic UI. NOTE: This project is still in progress.',
+    img: 'img/enlighten/enlighten_title.jpg',
+    imgAlt: 'Enlighten',
+    url: 'enlighten.html'
+  },
+  {
     title: 'Ambrosia - Web Application',
     desc: 'Ambrosia is a resaurant web app that provides customers a dynamic cart system to order products. It also features an easy to use administration system to view, edit, and delete customer orders, inventory items, and add administrators. Coded with HTML, CSS, Javascript, jQuery, PHP, PHPTAL, MySQL',
     img: 'img/ambrosia/ambrosia_logo.JPG',
