@@ -3,70 +3,69 @@
   <head>
     <meta charset="utf-8">
     <title>Jordan Chun Portfolio - Pißwasser</title>
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Patua+One" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/project.css">
   </head>
   <body>
-    <div class="header">
-      <header>
-        <a href="index.html">
-          <h1>JORDAN CHUN</h1>
-        </a>
-        <nav>
-          <a href="web_dev.html">
-            <button type="button" class="btn btn-outline-secondary">
-              Web Development
-            </button>
-          </a>
-          <a href="graphic_design.html">
-            <button type="button" class="header-link btn btn-outline-secondary">
-              Graphics & Design
-            </button>
-          </a>
-        </nav>
-      </header>
-    </div>
-    <div class="sec-main">
-      <div class="sec-header">
-        <h1>Pißwasser - Website</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+      <a class="navbar-brand" href="index.html">Jordan Chun</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <a class="nav-item nav-link" href="web_dev.html">Web Development</a>
+          <a class="nav-item nav-link" href="graphic_design.html">Graphics & Design</a>
+        </div>
       </div>
-      <div class="project-container flex-column">
-        <div class="project-intro">
-          <p>A website redesign of a craft beer company. Users can browse through a section of craft beers or learn about the factory. Created with standard HTML, CSS, Javascript, jQuery, and PHP.</p>
-        </div>
-        <div class="project-details flex-column">
-          <img src="img/piswasser/piswasser_01.JPG" alt="Piswaser Beer" class="img-thumbnail">
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/piswasser/piswasser_02.JPG" alt="Piswaser Home" class="img-thumbnail">
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/piswasser/piswasser_03.JPG" alt="Piswasser Factory" class="img-thumbnail">
-          <div class="project-exp">
-            <p>As the website was designed by a partner, it was my job to bring the design to life. The website was coded using HTML and CSS. The website was coded pixel perfect to match the website design.</p>
+    </nav>
+    <div class="sec-main">
+      <div class="row project-info">
+       <div class="col-md-8">
+          <div class="sec-header">
+            <h1>Pißwasser - Website</h1>
+           </div>
+           <div class="project-container flex-column">
+              <div class="project-intro">
+                <p>A website redesign of a craft beer company. Users can browse through a section of craft beers or learn about the factory. Created with standard HTML, CSS, Javascript, jQuery, and PHP.</p>
+              </div>
+              <div class="project-details flex-column">
+                <img src="img/piswasser/piswasser_01.JPG" alt="Piswaser Beer" class="img-thumbnail">
+              </div>
+      
+              <div class="project-details flex-column">
+                <img src="img/piswasser/piswasser_02.JPG" alt="Piswaser Home" class="img-thumbnail">
+              </div>
+      
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>As the website was designed by a partner, it was my job to bring the design to life. The website was coded using HTML and CSS. The website was coded pixel perfect to match the website design.</p>
+                </div>
+                <img src="img/piswasser/piswasser_03.JPG" alt="Piswasser Factory" class="img-thumbnail">
+              </div>
+      
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>The website was coded and designed with a fluid layout to allow resizing of the window and mobile usage without causing issues.</p>
+                </div>
+                <img src="img/piswasser/piswasser_04.JPG" alt="Piswasser Fluid Layout" class="img-thumbnail">
+              </div>
+      
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>Information about the beer is retrieved from the database using Ajax.</p>
+                </div>
+                <img src="img/piswasser/piswasser_05.JPG" alt="Piswasser Beer Information" class="img-thumbnail">
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="project-details flex-column">
-          <img src="img/piswasser/piswasser_04.JPG" alt="Piswasser Fluid Layout" class="img-thumbnail">
-          <div class="project-exp">
-            <p>The website was coded and designed with a fluid layout to allow resizing of the window and mobile usage without causing issues.</p>
-          </div>
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/piswasser/piswasser_05.JPG" alt="Piswasser Beer Information" class="img-thumbnail">
-          <div class="project-exp">
-            <p>Information about the beer is collected from the database using Ajax.</p>
-          </div>
-        </div>
-
       </div>
       <div id="view-img">
         <img src="" alt="" class="img-thumbnail">
@@ -75,6 +74,7 @@
         <h5>jordanchun30@gmail.com</h5>
       </div>
     </div>
+    <div class="sticky-scroll fixed-bottom align-right">Scroll To Top</div>
   </body>
   <script type="text/javascript" src="js/header.js"></script>
   <script type="text/javascript" src="js/project.js"></script>

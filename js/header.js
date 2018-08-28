@@ -1,8 +1,3 @@
-$(document).ready(function(){
-  headerDrop();
-});
-
-function headerDrop(){
-  $('.header').animate({top: '0px'});
-  $('.header').css('position', 'fixed');
-}
+$('.sticky-scroll').click(() => {
+  window.scrollTo(0, 0);
+})

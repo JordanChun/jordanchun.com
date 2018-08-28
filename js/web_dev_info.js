@@ -1,6 +1,6 @@
 var projects = [
   {
-    title: 'Enlighten - Web Application',
+    title: 'Enlighten - MERN Web Application',
     desc: 'Enlighten is a forum created for the purpose of discussing any and all topics. Developed with NodeJs, ExpressJs, MongoDB, ReactJs, React Router v4, React Redux, React Semantic UI. NOTE: This project is still in progress.',
     img: 'img/enlighten/enlighten_title.jpg',
     imgAlt: 'Enlighten',

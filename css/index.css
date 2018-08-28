@@ -20,42 +20,35 @@ p{
   color: #282828 !important;
   font-size: 0.9rem !important;
 }
-button{
-  border-color: #007bff !important;
-  color: #007bff !important;
-}
-button:hover{
-  background-color: lightblue !important;
-  border-color: lightblue !important;
-  cursor: pointer;
-}
 a:hover{
   text-decoration: none !important;
 }
-.header{
-  z-index: 998;
-  top: -105px;
-  width: 100%;
-  background: rgb(173,216,230); /* Old browsers */
-  background: -moz-linear-gradient(-45deg,  rgba(173,216,230,1) 0%, rgba(173,216,230,1) 300px,rgba(255,255,255,1) 300px, rgba(255,255,255,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg,  rgba(173,216,230,1) 0%,rgba(173,216,230,1) 300px,rgba(255,255,255,1) 300px,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg,  rgba(173,216,230,1) 0%,rgba(173,216,230,1) 300px,rgba(255,255,255,1) 300px,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#add8e6', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+button:hover {
+  cursor: pointer;
 }
-.header header{
-  height: 100px;
-  display: flex;
-  align-items: center;
-  box-shadow: -1px -2px 20px rgb(23,162,184);
+.navbar {
+  padding: 20px 50px;
+  background-color: #303030;
 }
-.header h1{
-  margin: 0 150px 0 50px;
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Patua One', cursive;
+  padding: 0 15px;
+  border-radius: 3px;
+  border: 2px solid white;
 }
-.header nav a{
-  margin: 5px;
+
+.navbar a {
+  color: white;  
 }
-.header nav a button{
-  border-color: rgba(0, 0, 0, 0) !important;
+
+.navbar-nav  .active{ 
+  border-bottom: 2px solid white;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: white;
 }
 .landing-main{
   height: 100vh;
@@ -87,4 +80,18 @@ a:hover{
 }
 .sec-footer h5{
   color: white;
+}
+
+.sticky-scroll {
+  z-index: 999;
+  padding: 15px;
+  background-color: #303030;
+  color: white;
+  width: max-content;
+  left: unset;
+  cursor: pointer;
+  border-radius: 3px;
+  opacity: 80%;
+  margin: 20px;
+  border: 2px solid white;
 }

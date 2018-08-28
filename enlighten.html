@@ -3,214 +3,214 @@
   <head>
     <meta charset="utf-8">
     <title>Jordan Chun Portfolio - Enlighten</title>
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Patua+One" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/project.css">
   </head>
   <body>
-    <div class="header">
-      <header>
-        <a href="index.html">
-          <h1>JORDAN CHUN</h1>
-        </a>
-        <nav>
-          <a href="web_dev.html">
-            <button type="button" class="btn btn-outline-secondary">
-              Web Development
-            </button>
-          </a>
-          <a href="graphic_design.html">
-            <button type="button" class="header-link btn btn-outline-secondary">
-              Graphics & Design
-            </button>
-          </a>
-        </nav>
-      </header>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <a class="navbar-brand" href="index.html">Jordan Chun</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <a class="nav-item nav-link" href="web_dev.html">Web Development</a>
+            <a class="nav-item nav-link" href="graphic_design.html">Graphics & Design</a>
+          </div>
+        </div>
+      </nav>
     <div class="sec-main">
-      <div class="sec-header">
-        <h1>Enlighten - Web Application</h1>
-      </div>
-      <div class="project-container flex-column">
-        <div class="project-intro">
-          <p>Enlighten is a forum created for the purpose of discussing any and all topics. Developed with NodeJs, ExpressJs, MongoDB, ReactJs, React Router v4, React Redux, React Semantic UI. NOTE: This project is still in progress.</p>
-        </div>
-        <div class="project-details flex-column">
-            <div class="project-exp">
-              <p>As the window gets thinner, the items within top sticky menu will collapse and compact. This will provide the user all the features even with a smaller resolution.</p>
+      <div class="row project-info">
+          <div class="col-md-8">
+            <div class="sec-header">
+              <h1>Ambrosia - Web Application</h1>
             </div>
-            <img src="img/enlighten/enlighten_uxui_01.jpg" alt="Enlighten UX/UI 1" class="img-thumbnail">
-            <img src="img/enlighten/enlighten_uxui_02.jpg" alt="Enlighten UX/UI 2" class="img-thumbnail">
-        </div>
-        <div class="project-details flex-column">
-          <div class="project-exp">
-            <p>To create an account the standard email, username, and password inputs are provided. All information is stored in MongoDB. Passwords are hashed on signup.</p>
-          </div>
-          <img src="img/enlighten/enlighten_signup_01.jpg" alt="Enlighten Signup 1" class="img-thumbnail">
-        </div>
-        
-        <div class="project-details flex-column">
-          <div class="project-exp">
-            <p>Each input has a validation process in which errors will be displayed to the user on failure. Inputs are first validated on the client side, once cleared the inputs will be validated in the backend. Depending on the input requirements and client side validation it may never send requests to the server. This will make the app faster as the user will not have to wait for a response from the backend.</p>
-          </div>
-          <img src="img/enlighten/enlighten_signup_02.jpg" alt="Enlighten Signup 2" class="img-thumbnail">
-        </div>
-        
-        <div class="project-details flex-column">
-          <div class="project-exp">
-            <p>On successful signup, the user will be redirected to the login page.</p>
-          </div>
-          <img src="img/enlighten/enlighten_signup_03.jpg" alt="Enlighten Signup 3" class="img-thumbnail">
-        </div>
-        
-        <div class="project-details flex-column">
-          <div class="project-exp">
-            <p>The login inputs are obviously validated as well. The login inputs go through the same validation process as the signup. Passwords will be compared to the hash passwords stored in the database. </p>
-          </div>
-          <img src="img/enlighten/enlighten_login_01.jpg" alt="Enlighten Login 1" class="img-thumbnail">
-        </div>
-        
-        <div class="project-details flex-column">
-          <div class="project-exp">
-            <p>With the correct account information, once logged in the user session will expire after a certain amount of time and they will have to re-enter their information. By checking the "Remember Me" box the user may stay logged for an extended amount of time.</p>
-          </div>
-          <img src="img/enlighten/enlighten_login_02.jpg" alt="Enlighten Login 2" class="img-thumbnail">
-        </div>
-        
-        <div class="project-details flex-column">
-          <div class="project-exp">
-            <p>A login modal will be displayed to the user most of the time to avoid redirection and create a seamless experience. In certain situations the user will be redirected to a login page. This will happen when the user is trying to access user sensitive information to prevent any information leaks. With the correct information the user will be redirected back to the page in which they were trying to access.</p>
-          </div>
-          <img src="img/enlighten/enlighten_login_03.jpg" alt="Enlighten Login 3" class="img-thumbnail">
-          <img src="img/enlighten/enlighten_login_04.jpg" alt="Enlighten Login 4" class="img-thumbnail">
-          <img src="img/enlighten/enlighten_login_05.jpg" alt="Enlighten Login 5" class="img-thumbnail">
-        </div>
-        
-        <div class="project-details flex-column">
-          <div class="project-exp">
-            <p>Once logged in the user may quickly access their profile, user settings, or logout.</p>
-          </div>
-          <img src="img/enlighten/enlighten_login_06.jpg" alt="Enlighten Login 6" class="img-thumbnail">
-        </div>
-        
-        <div class="project-details flex-column">
-          <div class="project-exp">
-            <p>In profile section the user, as well as other may see certain information such as the user activity, user comments, and other public statistics.</p>
-          </div>
-          <img src="img/enlighten/enlighten_profile_01.jpg" alt="Enlighten Profile 1" class="img-thumbnail">
-        </div>
-        
-        <div class="project-details flex-column">
-          <div class="project-exp">
-            <p>Users may comment on each others profiles and the number of comments are shown. By using cetain queries the exact number is obtained, excluding all irrelevant information that could have been collected during the request and repsonse phase. Comments are limited to a number of characters. User inputs are validated client side before backend validation.</p>
-          </div>
-          <img src="img/enlighten/enlighten_profile_02.jpg" alt="Enlighten Profile 2" class="img-thumbnail">
-        </div>
-        
-        <div class="project-details flex-column">
-          <div class="project-exp">
-            <p>Once the user posts a comment, a pop up will be displayed to notify the user.</p>
-          </div>
-          <img src="img/enlighten/enlighten_profile_03.jpg" alt="Enlighten Profile 3" class="img-thumbnail">
-        </div>
-        
-        <div class="project-details flex-column">
-          <div class="project-exp">
-            <p>Usernames are linked to their profiles for quick access. Timestamps are provided to display when the comment was posted.</p>
-          </div>
-          <img src="img/enlighten/enlighten_profile_04.jpg" alt="Enlighten Profile 4" class="img-thumbnail">
-        </div>
-        
-        <div class="project-details flex-column">
-          <div class="project-exp">
-            <p>Hovering over a comment will give you the option to either delete your own comment or another users comment if it is on your own profile. Every comment may be reported other than your own.</p>
-          </div>
-          <img src="img/enlighten/enlighten_profile_05.jpg" alt="Enlighten Profile 5" class="img-thumbnail">
-        </div>
-        
-        <div class="project-details flex-column">
-          <div class="project-exp">
-            <p>Once a comment section has more than 6 comments, a new "page" will be created. Only a limit of 6 comments will be retrieved each page to prevent too much unnecessary information to be gathered from the database.</p>
-          </div>
-          <img src="img/enlighten/enlighten_profile_06.jpg" alt="Enlighten Profile 6" class="img-thumbnail">
-          <img src="img/enlighten/enlighten_profile_07.jpg" alt="Enlighten Profile 7" class="img-thumbnail">
-        </div>
-
-        <div class="project-details flex-column">
-            <div class="project-exp">
-              <p>A floating circle is always displayed to easily and quickly create a post.</p>
+            <div class="project-container flex-column">
+              <div class="project-intro">
+                <p>Enlighten is a forum created for the purpose of discussing any and all topics. Developed with NodeJs, ExpressJs, MongoDB, ReactJs, React Router v4, React Redux, React Semantic UI. NOTE: This project is still in progress.</p>
+              </div>
+              <div class="project-details flex-column">
+                  <div class="project-exp">
+                    <p>As the window gets thinner, the items within top sticky menu will collapse and compact. This will provide the user all the features even with a smaller resolution.</p>
+                  </div>
+                  <img src="img/enlighten/enlighten_uxui_01.jpg" alt="Enlighten UX/UI 1" class="img-thumbnail">
+                  <img src="img/enlighten/enlighten_uxui_02.jpg" alt="Enlighten UX/UI 2" class="img-thumbnail">
+              </div>
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>To create an account the standard email, username, and password inputs are provided. All information is stored in MongoDB. Passwords are hashed on signup.</p>
+                </div>
+                <img src="img/enlighten/enlighten_signup_01.jpg" alt="Enlighten Signup 1" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>Each input has a validation process in which errors will be displayed to the user on failure. Inputs are first validated on the client side, once cleared the inputs will be validated in the backend. Depending on the input requirements and client side validation it may never send requests to the server. This will make the app faster as the user will not have to wait for a response from the backend.</p>
+                </div>
+                <img src="img/enlighten/enlighten_signup_02.jpg" alt="Enlighten Signup 2" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>On successful signup, the user will be redirected to the login page.</p>
+                </div>
+                <img src="img/enlighten/enlighten_signup_03.jpg" alt="Enlighten Signup 3" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>The login inputs are obviously validated as well. The login inputs go through the same validation process as the signup. Passwords will be compared to the hash passwords stored in the database. </p>
+                </div>
+                <img src="img/enlighten/enlighten_login_01.jpg" alt="Enlighten Login 1" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>With the correct account information, once logged in the user session will expire after a certain amount of time and they will have to re-enter their information. By checking the "Remember Me" box the user may stay logged for an extended amount of time.</p>
+                </div>
+                <img src="img/enlighten/enlighten_login_02.jpg" alt="Enlighten Login 2" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>A login modal will be displayed to the user most of the time to avoid redirection and create a seamless experience. In certain situations the user will be redirected to a login page. This will happen when the user is trying to access user sensitive information to prevent any information leaks. With the correct information the user will be redirected back to the page in which they were trying to access.</p>
+                </div>
+                <img src="img/enlighten/enlighten_login_03.jpg" alt="Enlighten Login 3" class="img-thumbnail">
+                <img src="img/enlighten/enlighten_login_04.jpg" alt="Enlighten Login 4" class="img-thumbnail">
+                <img src="img/enlighten/enlighten_login_05.jpg" alt="Enlighten Login 5" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>Once logged in the user may quickly access their profile, user settings, or logout.</p>
+                </div>
+                <img src="img/enlighten/enlighten_login_06.jpg" alt="Enlighten Login 6" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>In profile section the user, as well as other may see certain information such as the user activity, user comments, and other public statistics.</p>
+                </div>
+                <img src="img/enlighten/enlighten_profile_01.jpg" alt="Enlighten Profile 1" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>Users may comment on each others profiles and the number of comments are shown. By using cetain queries the exact number is obtained, excluding all irrelevant information that could have been collected during the request and repsonse phase. Comments are limited to a number of characters. User inputs are validated client side before backend validation.</p>
+                </div>
+                <img src="img/enlighten/enlighten_profile_02.jpg" alt="Enlighten Profile 2" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>Once the user posts a comment, a pop up will be displayed to notify the user.</p>
+                </div>
+                <img src="img/enlighten/enlighten_profile_03.jpg" alt="Enlighten Profile 3" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>Usernames are linked to their profiles for quick access. Timestamps are provided to display when the comment was posted.</p>
+                </div>
+                <img src="img/enlighten/enlighten_profile_04.jpg" alt="Enlighten Profile 4" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>Hovering over a comment will give you the option to either delete your own comment or another users comment if it is on your own profile. Every comment may be reported other than your own.</p>
+                </div>
+                <img src="img/enlighten/enlighten_profile_05.jpg" alt="Enlighten Profile 5" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>Once a comment section has more than 6 comments, a new "page" will be created. Only a limit of 6 comments will be retrieved each page to prevent too much unnecessary information to be gathered from the database.</p>
+                </div>
+                <img src="img/enlighten/enlighten_profile_06.jpg" alt="Enlighten Profile 6" class="img-thumbnail">
+                <img src="img/enlighten/enlighten_profile_07.jpg" alt="Enlighten Profile 7" class="img-thumbnail">
+              </div>
+            
+              <div class="project-details flex-column">
+                  <div class="project-exp">
+                    <p>A floating circle is always displayed to easily and quickly create a post.</p>
+                  </div>
+                  <img src="img/enlighten/enlighten_create_01.jpg" alt="Enlighten Create 1" class="img-thumbnail">
+              </div>
+            
+              <div class="project-details flex-column">
+                  <div class="project-exp">
+                    <p>Clicking this button will redirect the user to a page where they will fill out inputs for their post.</p>
+                  </div>
+                  <img src="img/enlighten/enlighten_create_02.jpg" alt="Enlighten Create 2" class="img-thumbnail">
+                  <img src="img/enlighten/enlighten_create_03.jpg" alt="Enlighten Create 3" class="img-thumbnail">
+              </div>
+            
+              <div class="project-details flex-column">
+                  <div class="project-exp">
+                    <p>Tags can be added or deleted.</p>
+                  </div>
+                  <img src="img/enlighten/enlighten_create_04.jpg" alt="Enlighten Create 4" class="img-thumbnail">
+              </div>
+            
+              <div class="project-details flex-column">
+                  <div class="project-exp">
+                    <p>After a post is posted it will be displayed as a link on the users profile activity. As well as when it was posted.</p>
+                  </div>
+                  <img src="img/enlighten/enlighten_create_05.jpg" alt="Enlighten Create 5" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                  <div class="project-exp">
+                    <p>Clicking the report button on a comment will prompt the user to a report modal which the user must fill in to submit a report for various reasons.</p>
+                  </div>
+                  <img src="img/enlighten/enlighten_report_01.jpg" alt="Enlighten Report 1" class="img-thumbnail">
+              </div>
+            
+              <div class="project-details flex-column">
+                  <div class="project-exp">
+                    <p>A successful report submittion will provide the following feedback.</p>
+                  </div>
+                  <img src="img/enlighten/enlighten_report_02.jpg" alt="Enlighten Report 2" class="img-thumbnail">
+              </div>
+            
+              <div class="project-details flex-column">
+                  <div class="project-exp">
+                    <p>Within the administrator dashboard, reports are recieved and displayed for easy management.</p>
+                  </div>
+                  <img src="img/enlighten/enlighten_report_03.jpg" alt="Enlighten Admin Report 3" class="img-thumbnail">
+              </div>
+            
+              <div class="project-details flex-column">
+                  <div class="project-exp">
+                    <p>New categories may be added or deleted. As well as subcategories may be added or deleted from the main category, or its name edited.</p>
+                  </div>
+                  <img src="img/enlighten/enlighten_categories_01.jpg" alt="Enlighten Admin Categories 1" class="img-thumbnail">
+                  <img src="img/enlighten/enlighten_categories_02.jpg" alt="Enlighten Admin Categories 2" class="img-thumbnail">
+                  <img src="img/enlighten/enlighten_categories_03.jpg" alt="Enlighten Admin Categories 3" class="img-thumbnail">
+              </div>
+              <div class="project-details flex-column">
+                  <div class="project-exp">
+                    <p>All actions requiring database connectivity are validated both client side as well as backend.</p>
+                  </div>
+              </div>
+              
             </div>
-            <img src="img/enlighten/enlighten_create_01.jpg" alt="Enlighten Create 1" class="img-thumbnail">
+          </div>
         </div>
-
-        <div class="project-details flex-column">
-            <div class="project-exp">
-              <p>Clicking this button will redirect the user to a page where they will fill out inputs for their post.</p>
-            </div>
-            <img src="img/enlighten/enlighten_create_02.jpg" alt="Enlighten Create 2" class="img-thumbnail">
-            <img src="img/enlighten/enlighten_create_03.jpg" alt="Enlighten Create 3" class="img-thumbnail">
-        </div>
-
-        <div class="project-details flex-column">
-            <div class="project-exp">
-              <p>Tags can be added or deleted.</p>
-            </div>
-            <img src="img/enlighten/enlighten_create_04.jpg" alt="Enlighten Create 4" class="img-thumbnail">
-        </div>
-
-        <div class="project-details flex-column">
-            <div class="project-exp">
-              <p>After a post is posted it will be displayed as a link on the users profile activity. As well as when it was posted.</p>
-            </div>
-            <img src="img/enlighten/enlighten_create_05.jpg" alt="Enlighten Create 5" class="img-thumbnail">
-        </div>
-        
-        <div class="project-details flex-column">
-            <div class="project-exp">
-              <p>Clicking the report button on a comment will prompt the user to a report modal which the user must fill in to submit a report for various reasons.</p>
-            </div>
-            <img src="img/enlighten/enlighten_report_01.jpg" alt="Enlighten Report 1" class="img-thumbnail">
-        </div>
-
-        <div class="project-details flex-column">
-            <div class="project-exp">
-              <p>A successful report submittion will provide the following feedback.</p>
-            </div>
-            <img src="img/enlighten/enlighten_report_02.jpg" alt="Enlighten Report 2" class="img-thumbnail">
-        </div>
-
-        <div class="project-details flex-column">
-            <div class="project-exp">
-              <p>Within the administrator dashboard, reports are recieved and displayed for easy management.</p>
-            </div>
-            <img src="img/enlighten/enlighten_report_03.jpg" alt="Enlighten Admin Report 3" class="img-thumbnail">
-        </div>
-
-        <div class="project-details flex-column">
-            <div class="project-exp">
-              <p>New categories may be added or deleted. As well as subcategories may be added or deleted from the main category, or its name edited.</p>
-            </div>
-            <img src="img/enlighten/enlighten_categories_01.jpg" alt="Enlighten Admin Categories 1" class="img-thumbnail">
-            <img src="img/enlighten/enlighten_categories_02.jpg" alt="Enlighten Admin Categories 2" class="img-thumbnail">
-            <img src="img/enlighten/enlighten_categories_03.jpg" alt="Enlighten Admin Categories 3" class="img-thumbnail">
-        </div>
-        <div class="project-details flex-column">
-            <div class="project-exp">
-              <p>All actions requiring database connectivity are validated both client side as well as backend.</p>
-            </div>
-        </div>
-
-      </div>
-      <div id="view-img">
+        <div id="view-img">
         <img src="" alt="" class="img-thumbnail">
       </div>
       <div class="sec-footer">
         <h5>jordanchun30@gmail.com</h5>
       </div>
     </div>
+    <div class="sticky-scroll fixed-bottom align-right">Scroll To Top</div>
   </body>
   <script type="text/javascript" src="js/header.js"></script>
   <script type="text/javascript" src="js/project.js"></script>

@@ -3,83 +3,82 @@
   <head>
     <meta charset="utf-8">
     <title>Jordan Chun Portfolio - Vacant Art</title>
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Patua+One" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/project.css">
   </head>
   <body>
-    <div class="header">
-      <header>
-        <a href="index.html">
-          <h1>JORDAN CHUN</h1>
-        </a>
-        <nav>
-          <a href="web_dev.html">
-            <button type="button" class="btn btn-outline-secondary">
-              Web Development
-            </button>
-          </a>
-          <a href="graphic_design.html">
-            <button type="button" class="header-link btn btn-outline-secondary">
-              Graphics & Design
-            </button>
-          </a>
-        </nav>
-      </header>
-    </div>
-    <div class="sec-main">
-      <div class="sec-header">
-        <h1>Vacant Art - Web Application</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+      <a class="navbar-brand" href="index.html">Jordan Chun</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <a class="nav-item nav-link" href="web_dev.html">Web Development</a>
+          <a class="nav-item nav-link" href="graphic_design.html">Graphics & Design</a>
+        </div>
       </div>
-      <div class="project-container flex-column">
-        <div class="project-intro">
-          <p>Vacant Art is a web app that allows users to sign up and upload images to their account to then be approved with an admin system. Coded with HTML, CSS, Javascript, jQuery, MySQL, and PHP</p>
-        </div>
-        <div class="project-details flex-column">
-          <img src="img/vacant_art/vacant_art_home.jpg" alt="Vacant Art Home" class="img-thumbnail">
-          <div class="project-exp">
-            <p>The design of Vacant Art is simple and easily learnable. A single page with a comination of light boxes allows the ease of use for the users.</p>
+    </nav>
+    <div class="sec-main">
+      <div class="row project-info">
+        <div class="col-md-8">
+          <div class="sec-header">
+            <h1>Vacant Art - Web Application</h1>
+          </div>
+          <div class="project-container flex-column">
+            <div class="project-intro">
+              <p>Vacant Art is a web app that allows users to sign up and upload images to their account to then be approved with an admin system. Coded with HTML, CSS, Javascript, jQuery, MySQL, and PHP</p>
+            </div>
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>The design of Vacant Art is simple and easily learnable. A single page with a comination of light boxes allows the ease of use for the users.</p>
+              </div>
+              <img src="img/vacant_art/vacant_art_home.jpg" alt="Vacant Art Home" class="img-thumbnail">
+            </div>
+    
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>A single web page can be quite long. However, a sticky menu has been implemented to be displayed within a certain height. This eliminates the tedious task of scrolling too much.</p>
+              </div>
+              <img src="img/vacant_art/vacant_art_global_nav.JPG" alt="Vacant Art Global Navigation" class="img-thumbnail">
+            </div>
+    
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>Users can sign up for an account where the information is stored in a database. Passwords are hashed to increase security of the users.</p>
+              </div>
+              <img src="img/vacant_art/vacant_art_signup.JPG" alt="Vacant Art User Signup" class="img-thumbnail">
+            </div>
+    
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>After sucesfully logging in, users can choose a file from their hard drive and upload an image. Filling out the artwork name input will rename the image stored in the database.</p>
+              </div>
+              <img src="img/vacant_art/vacant_art_upload.JPG" alt="Vacant Art User Upload" class="img-thumbnail">
+            </div>
+    
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>After uploading an image, users can check that their image was uploaded and its status whether it was approved or pending.</p>
+              </div>
+              <img src="img/vacant_art/vacant_art_status.JPG" alt="Vacant Art User Status" class="img-thumbnail">
+            </div>
+    
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>The admin system allows admins to approve of artworks uploaded by all users. The table and database will be updated dynamically.</p>
+              </div>
+              <img src="img/vacant_art/vacant_art_admin.JPG" alt="Vacant Art Admin" class="img-thumbnail">
+            </div>
+    
           </div>
         </div>
-
-        <div class="project-details flex-column">
-          <img src="img/vacant_art/vacant_art_global_nav.JPG" alt="Vacant Art Global Navigation" class="img-thumbnail">
-          <div class="project-exp">
-            <p>A single web page can be quite long. However, a sticky menu has been implemented to be displayed within a certain height. This eliminates the tedious task of scrolling too much.</p>
-          </div>
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/vacant_art/vacant_art_signup.JPG" alt="Vacant Art User Signup" class="img-thumbnail">
-          <div class="project-exp">
-            <p>Users can sign up for an account where the information is stored in a database. Passwords are hashed to increase security of the users.</p>
-          </div>
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/vacant_art/vacant_art_upload.JPG" alt="Vacant Art User Upload" class="img-thumbnail">
-          <div class="project-exp">
-            <p>After sucesfully logging in, users can choose a file from their hard drive and upload an image. Filling out the artwork name input will rename the image stored in the database.</p>
-          </div>
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/vacant_art/vacant_art_status.JPG" alt="Vacant Art User Status" class="img-thumbnail">
-          <div class="project-exp">
-            <p>After uploading an image, users can check that their image was uploaded and its status whether it was approved or pending.</p>
-          </div>
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/vacant_art/vacant_art_admin.JPG" alt="Vacant Art Admin" class="img-thumbnail">
-          <div class="project-exp">
-            <p>The admin system allows admins to approve of artworks uploaded by all users. The table and database will be updated dynamically.</p>
-          </div>
-        </div>
-
       </div>
       <div id="view-img">
         <img src="" alt="" class="img-thumbnail">
@@ -88,6 +87,7 @@
         <h5>jordanchun30@gmail.com</h5>
       </div>
     </div>
+    <div class="sticky-scroll fixed-bottom align-right">Scroll To Top</div>
   </body>
   <script type="text/javascript" src="js/header.js"></script>
   <script type="text/javascript" src="js/project.js"></script>

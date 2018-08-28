@@ -3,104 +3,103 @@
   <head>
     <meta charset="utf-8">
     <title>Jordan Chun Portfolio - Ambrosia</title>
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Patua+One" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/project.css">
   </head>
   <body>
-    <div class="header">
-      <header>
-        <a href="index.html">
-          <h1>JORDAN CHUN</h1>
-        </a>
-        <nav>
-          <a href="web_dev.html">
-            <button type="button" class="btn btn-outline-secondary">
-              Web Development
-            </button>
-          </a>
-          <a href="graphic_design.html">
-            <button type="button" class="header-link btn btn-outline-secondary">
-              Graphics & Design
-            </button>
-          </a>
-        </nav>
-      </header>
-    </div>
-    <div class="sec-main">
-      <div class="sec-header">
-        <h1>Ambrosia - Web Application</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+      <a class="navbar-brand" href="index.html">Jordan Chun</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <a class="nav-item nav-link" href="web_dev.html">Web Development</a>
+          <a class="nav-item nav-link" href="graphic_design.html">Graphics & Design</a>
+        </div>
       </div>
-      <div class="project-container flex-column">
-        <div class="project-intro">
-          <p>Ambrosia is a Greek Resaurant web app that provides customers a dynamic cart system to order products. Ambrosia also features an easy to use administration management system to view, edit, and delete customer orders and the inventory items and add administrators. Coded with HTML, CSS, Javascript, jQuery, PHP, PHPTAL, MySQL</p>
-        </div>
-        <div class="project-details flex-column">
-          <img src="img/ambrosia/ambrosia_login.JPG" alt="Ambrosia Login" class="img-thumbnail">
-          <div class="project-exp">
-            <p>To access the administration section of the restaurant you must login. Passwords are hashed and other user information is salted to prevent sensitive information from being exposed.</p>
+    </nav>
+    <div class="sec-main">
+      <div class="row project-info">
+        <div class="col-md-8">
+          <div class="sec-header">
+            <h1>Ambrosia - Web Application</h1>
+          </div>
+          <div class="project-container flex-column">
+            <div class="project-intro">
+              <p>Ambrosia is a Greek Resaurant web app that provides customers a dynamic cart system to order products. Ambrosia also features an easy to use administration management system to view, edit, and delete customer orders and the inventory items and add administrators. Coded with HTML, CSS, Javascript, jQuery, PHP, PHPTAL, MySQL</p>
+            </div>
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>To access the administration section of the restaurant you must login. Passwords are hashed and other user information is salted to prevent sensitive information from being exposed.</p>
+              </div>
+              <img src="img/ambrosia/ambrosia_login.JPG" alt="Ambrosia Login" class="img-thumbnail">
+            </div>
+    
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>The inventory system allows admins to add, edit, and delete items from the restaurants menu. All items are retrieved from the restaurants MySQL database where the tables are in 2nd normal form. Using Ajax calls allows the inventory the database without reloading or refreshing the web page.</p>
+              </div>
+              <img src="img/ambrosia/ambrosia_inventory.JPG" alt="Ambrosia Inventory" class="img-thumbnail">
+            </div>
+    
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>By clicking on one of the category tabs, it will provide you information about all the items in the current category as well as allowing you to edit or delete the item.</p>
+              </div>
+              <img src="img/ambrosia/ambrosia_inventory_02.JPG" alt="Ambrosia Inventory" class="img-thumbnail">
+            </div>
+    
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>The edit menu will allow you to update any information on the item to be saved into the database.</p>
+              </div>
+              <img src="img/ambrosia/ambrosia_inventory_edit.JPG" alt="Ambrosia Inventory" class="img-thumbnail">
+            </div>
+    
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>Users can add items and remove items on the menu from their cart. Their current order and subtotal is updated dynamicaly as they add or remove items.</p>
+              </div>
+              <img src="img/ambrosia/ambrosia_add_cart.JPG" alt="Ambrosia Inventory" class="img-thumbnail">
+            </div>
+    
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>The user may review their order and submit their information when they are ready to checkout. The information is sent to the database.</p>
+              </div>
+              <img src="img/ambrosia/ambrosia_checkout.JPG" alt="Ambrosia Inventory" class="img-thumbnail">
+            </div>
+    
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>Admins can view all the pending and complete orders made. The admin can view the order details or cancel their order.</p>
+              </div>
+              <img src="img/ambrosia/ambrosia_orders.JPG" alt="Ambrosia Orders" class="img-thumbnail">
+            </div>
+    
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>In the order details, the customers order can be seen and approved.</p>
+              </div>
+              <img src="img/ambrosia/ambrosia_orders_details.JPG" alt="Ambrosia Order Details" class="img-thumbnail">
+            </div>
+    
+            <div class="project-details flex-column">
+              <div class="project-exp">
+                <p>New admins can be created if needed.</p>
+              </div>
+              <img src="img/ambrosia/ambrosia_settings.JPG" alt="Ambrosia Order Details" class="img-thumbnail">
+            </div>
+    
           </div>
         </div>
-
-        <div class="project-details flex-column">
-          <img src="img/ambrosia/ambrosia_inventory.JPG" alt="Ambrosia Inventory" class="img-thumbnail">
-          <div class="project-exp">
-            <p>The inventory system allows admins to add, edit, and delete items from the restaurants menu. All items are retrieved from the restaurants MySQL database where the tables are in 2nd normal form. Using Ajax calls allows the inventory the database without reloading or refreshing the web page.</p>
-          </div>
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/ambrosia/ambrosia_inventory_02.JPG" alt="Ambrosia Inventory" class="img-thumbnail">
-          <div class="project-exp">
-            <p>By clicking on one of the category tabs, it will provide you information about all the items in the current category as well as allowing you to edit or delete the item.</p>
-          </div>
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/ambrosia/ambrosia_inventory_edit.JPG" alt="Ambrosia Inventory" class="img-thumbnail">
-          <div class="project-exp">
-            <p>The edit menu will allow you to update any information on the item to be saved into the database.</p>
-          </div>
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/ambrosia/ambrosia_add_cart.JPG" alt="Ambrosia Inventory" class="img-thumbnail">
-          <div class="project-exp">
-            <p>Users can add items and remove items on the menu from their cart. Their current order and subtotal is updated dynamicaly as they add or remove items.</p>
-          </div>
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/ambrosia/ambrosia_checkout.JPG" alt="Ambrosia Inventory" class="img-thumbnail">
-          <div class="project-exp">
-            <p>The user may review their order and submit their information when they are ready to checkout. The information is sent to the database.</p>
-          </div>
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/ambrosia/ambrosia_orders.JPG" alt="Ambrosia Orders" class="img-thumbnail">
-          <div class="project-exp">
-            <p>Admins can view all the pending and complete orders made. The admin can view the order details or cancel their order.</p>
-          </div>
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/ambrosia/ambrosia_orders_details.JPG" alt="Ambrosia Order Details" class="img-thumbnail">
-          <div class="project-exp">
-            <p>In the order details, the customers order can be seen and approved.</p>
-          </div>
-        </div>
-
-        <div class="project-details flex-column">
-          <img src="img/ambrosia/ambrosia_settings.JPG" alt="Ambrosia Order Details" class="img-thumbnail">
-          <div class="project-exp">
-            <p>New admins can be created if needed.</p>
-          </div>
-        </div>
-
       </div>
       <div id="view-img">
         <img src="" alt="" class="img-thumbnail">
@@ -109,6 +108,7 @@
         <h5>jordanchun30@gmail.com</h5>
       </div>
     </div>
+    <div class="sticky-scroll fixed-bottom align-right">Scroll To Top</div>
   </body>
   <script type="text/javascript" src="js/header.js"></script>
   <script type="text/javascript" src="js/project.js"></script>
