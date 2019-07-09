@@ -1,8 +1,15 @@
 var projects = [
   {
+    title: 'Notable - Election Desktop Application',
+    desc: 'A desktop application used for creating, saving, and managing information to be used as notes. Built with Electron, ReactJs, React Router v4, React Redux, React Semantic UI, and CouchDB.',
+    img: 'img/notable/notable_019.jpg',
+    imgAlt: 'Notable Logo',
+    url: 'notable.html'
+  },
+  {
     title: 'Enlighten - MERN Web Application',
-    desc: 'Enlighten is a forum created for the purpose of discussing any and all topics. Developed with NodeJs, ExpressJs, MongoDB, ReactJs, React Router v4, React Redux, React Semantic UI. NOTE: This project is still in progress.',
-    img: 'img/enlighten/enlighten_title.jpg',
+    desc: 'Enlighten is a forum created for the purpose of discussing any and all topics. Developed with NodeJs, ExpressJs, MongoDB, ReactJs, React Router v4, React Redux, React Semantic UI.',
+    img: 'img/enlighten/enlighten_create_05.jpg',
     imgAlt: 'Enlighten',
     url: 'enlighten.html'
   },

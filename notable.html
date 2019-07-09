@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jordan Chun Portfolio - Notable</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Patua+One" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/project.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <a class="navbar-brand" href="index.html">Jordan Chun</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <a class="nav-item nav-link" href="web_dev.html">Web Development</a>
+            <a class="nav-item nav-link" href="graphic_design.html">Graphics & Design</a>
+          </div>
+        </div>
+      </nav>
+    <div class="sec-main">
+      <div class="row project-info">
+          <div class="col-md-8">
+            <div class="sec-header">
+              <h1>Notable - Electron Desktop Application</h1>
+            </div>
+            <div class="project-container flex-column">
+              <div class="project-intro">
+                <p>Notable is a desktop application built with Electron that works both offline and online. It allows the user to create, save, and manage information as notes. The design of the application provides a clean UI that allows for easy organization and categorization. Built with Electron, ReactJs, React Router v4, React Redux, React Semantic UI, PouchDB, and CouchDB.</p>
+              </div>
+              <div class="project-details flex-column">
+                <img src="img/notable/Logo_md.jpg" alt="Notable Logo" class="img-thumbnail">
+            </div>
+              <div class="project-details flex-column">
+                  <div class="project-exp">
+                    <p>Since Notable is a desktop application, I wanted to provide the capability to work offline incase of internet outage and online when they are connected. To do this I implented PouchDB as an offline database which syncs the data to an online database(CouchDB) when connected to the internet.</p>
+                  </div>
+                  <img src="img/notable/notable_019.jpg" alt="Notable View" class="img-thumbnail">
+              </div>
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>The user can login, create an account, or use offline only mode which does not require an account but data will only be saved locally.</p>
+                </div>
+                <img src="img/notable/notable_01.jpg" alt="Notable Login" class="img-thumbnail">
+                <img src="img/notable/notable_02.jpg" alt="Notable Signup" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>On the first login a few preset categories are available. These can be edited or deleted.</p>
+                </div>
+                <img src="img/notable/notable_03.jpg" alt="Notable Start" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>When creating a note, an editor is displayed for any information to be inserted.</p>
+                </div>
+                <img src="img/notable/notable_04.jpg" alt="Notable Editor" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>Saving the note will allow the user to name the note, choose the category, pin the note, or set it as sensitive information which will require a password to view. </p>
+                </div>
+                <img src="img/notable/notable_05.jpg" alt="Notable Editor Save" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>Once saved the note will be available to view, edit, and delete in the category which it was saved into.</p>
+                </div>
+                <img src="img/notable/notable_06.jpg"alt="Notable Category" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>Clicking the edit button reopens the note into the editor. A new active tab is also created for the note.</p>
+                </div>
+                <img src="img/notable/notable_07.jpg"alt="Notable Editor 2" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>As more notes are added to the category, the notes width will readjust to fit content.</p>
+                </div>
+                <img src="img/notable/notable_010.jpg"alt="Notable Adjust" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <img src="img/notable/notable_011.jpg"alt="Notable Adjust 2" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>Notes will also adjust themselves depending on the window width.</p>
+                </div>
+                <img src="img/notable/notable_012.jpg"alt="Notable Adjust 3" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>The sidebar can be hidden by hovering over it and clicking the button which points to the left.</p>
+                </div>
+                <img src="img/notable/notable_013.jpg"alt="Notable Sidebar" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>It can be reopened by just hovering over the left area and clicking the button.</p>
+                </div>
+                <img src="img/notable/notable_014.jpg"alt="Notable Sidebar 2" class="img-thumbnail">
+              </div>
+              
+              <div class="project-details flex-column">
+                <div class="project-exp">
+                  <p>Hovering over notes allows for it to be scrolled up or down if there is too much text within the note itself to be displayed.</p>
+                </div>
+                <img src="img/notable/notable_015.jpg"alt="Notable Sidebar 2" class="img-thumbnail">
+              </div>
+                            
+            </div>
+          </div>
+        </div>
+        <div id="view-img">
+        <img src="" alt="" class="img-thumbnail">
+      </div>
+      <div class="sec-footer">
+        <h5>jordanchun30@gmail.com</h5>
+      </div>
+    </div>
+    <div class="sticky-scroll fixed-bottom align-right">Scroll To Top</div>
+  </body>
+  <script type="text/javascript" src="js/header.js"></script>
+  <script type="text/javascript" src="js/project.js"></script>
+</html>
