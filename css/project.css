@@ -22,7 +22,7 @@
   display: none;
   background-color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
-  z-index: 999;
+  z-index: 9999;
 }
 #view-img img{
   position: fixed;

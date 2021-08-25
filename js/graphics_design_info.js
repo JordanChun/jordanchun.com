@@ -7,6 +7,13 @@ var projects = [
     url: 'tiger_painting.html'
   },
   {
+    title: 'Cyberwave - 3D Level Design',
+    desc: 'A 3D map designed in Hammer Editor using the Source Engine',
+    img: 'img/cyberwave/cyberwave_01.jpg',
+    imgAlt: '',
+    url: 'cyberwave.html'
+  },
+  {
     title: 'Earth Infographic - Graphic Design',
     desc: 'An infographic about earth. Created and designed with Adobe Illustator.',
     img: 'img/earth_infographic/earth_infographic_01.jpg',
